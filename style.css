@@ -1,0 +1,30 @@
+@media screen and (width < 480px) {
+    body {
+    background-color: red;
+    font-size: small;
+    }
+    #medium, #large {
+        display: none;
+    }
+}
+
+@media screen and (480px <= width < 1024px) {
+    body {
+        background-color: green;
+        font-size: medium;
+    }
+    #small, #large {
+        display: none;
+    }
+    
+}
+
+@media screen and (width >= 1024px) {
+    body {
+        background-color: blue;
+        font-size: large;
+    }
+    #small, #medium {
+        display: none;
+    }
+}
