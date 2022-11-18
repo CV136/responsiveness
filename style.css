@@ -1,7 +1,7 @@
 @media screen and (width < 480px) {
     body {
-    background-color: red;
-    font-size: small;
+    background-color: #59c1bd;
+    font-size: medium;
     }
     #medium, #large {
         display: none;
@@ -10,8 +10,8 @@
 
 @media screen and (480px <= width < 1024px) {
     body {
-        background-color: green;
-        font-size: medium;
+        background-color: #a0e4cb;
+        font-size: large;
     }
     #small, #large {
         display: none;
@@ -21,10 +21,14 @@
 
 @media screen and (width >= 1024px) {
     body {
-        background-color: blue;
-        font-size: large;
+        background-color: #cff5e7;
+        font-size: x-large;
     }
     #small, #medium {
         display: none;
     }
+}
+div {
+    box-sizing: border-box;
+    padding: 20px;
 }
